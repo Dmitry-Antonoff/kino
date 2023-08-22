@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  font-family: "IBM Plex Mono", serif;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+main h2 {
+  display: flex;
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffbc5b;
+}
+
+.header {
+  background-color: #4520ab;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1097px;
+}
+
+.navbar {
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #fff;
+  opacity: 0.3;
+  text-align: center;
+  padding: 26px 20px;
+  text-decoration: none;
+  font-size: 21px;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover {
+  opacity: 1;
+  color: #ffbc5b;
+}
+
+.navbar a.searches {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.navbar a.searches:hover .search {
+  display: none;
+}
+
+.navbar a.searches:hover .search-yellow {
+  display: inline;
+}
+
+.search {
+  position: absolute;
+}
+
+.search-yellow {
+  position: absolute;
+  display: none;
+}
+
+.navbar a.active {
+  border-bottom: 3px solid #ffbc5b;
+  opacity: 1;
+  color: #ffbc5b;
+}
+
+body {
+  background: #141414;
+}
+
+.main-div {
+  width: 1097px;
+}
+
+.new {
+  margin-top: 52px;
+}
+
+.list-card {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.next {
+  height: 67px;
+  width: 50px;
+  margin-left: 20px;
+}
+
+.next,
+.next2 p {
+  color: #ffbc5b;
+  font-size: 50px;
+}
+
+.next2 {
+  height: 67px;
+  width: 50px;
+  margin-left: 20px;
+  margin-top: 170px;
+}
+
+.rating {
+  height: 30px;
+  width: 51px;
+  background-color: #ffbc5b;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+.rating p {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+
+.card,
+.card2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.rec {
+  margin-top: 99px;
+}
+
+.film {
+  color: #989898;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.type {
+  color: #515151;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.last {
+  display: flex;
+}
+
+.link {
+  margin: 0 3px;
+  text-decoration: none;
+  padding: 4px 7px;
+}
+
+.link2 {
+  margin: 0 5px;
+  text-decoration: none;
+  padding: 7.5px 5px;
+}
+
+.link:hover,
+.link2:hover {
+  padding: 0;
+}
+
+.link:hover .film,
+.link2:hover .film {
+  color: white;
+}
+
+.link:hover .type,
+.link2:hover .type {
+  color: #8a8a8a;
+}
+
+.link:hover img {
+  height: 190px;
+}
+
+.link2:hover img {
+  height: 500px;
+}
