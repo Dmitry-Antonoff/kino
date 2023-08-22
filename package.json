@@ -1,5 +1,5 @@
 {
-  "name": "kino-flex",
+  "name": "kino-adaptive",
   "version": "1.0.0",
   "description": "## Введение",
   "main": "index.js",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MercuryLabsLtd/kino-flex.git"
+    "url": "git+https://github.com/MercuryLabsLtd/kino-adaptive.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MercuryLabsLtd/kino-flex/issues"
+    "url": "https://github.com/MercuryLabsLtd/kino-adaptive/issues"
   },
-  "homepage": "https://github.com/MercuryLabsLtd/kino-flex#readme"
+  "homepage": "https://github.com/MercuryLabsLtd/kino-adaptive#readme"
 }
